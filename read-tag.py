@@ -2,6 +2,7 @@
 from time import sleep
 import sys
 from mfrc522 import SimpleMFRC522
+import RPi.GPIO as GPIO
 
 #Iniciar el sensor
 reader = SimpleMFRC522()
