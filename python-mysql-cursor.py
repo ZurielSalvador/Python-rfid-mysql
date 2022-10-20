@@ -5,9 +5,9 @@ import mysql.connector
 
 #Conexion
 #cnx = mysql.connector.connect(user = 'Zuriel',password='117',host='localhost',database='codigoIoT')
-cnx = mysql.connector.connect(user='Zuriel', password='117',
+cnx = mysql.connector.connect(user='Zuriellan', password='117',
                               host='127.0.0.1',
-                              database='codigoIoT')
+                              database='rfid')
 
 
 #cursor
@@ -16,7 +16,7 @@ cursor = cnx.cursor()
 
 #query
 
-query = ("SELECT id,nombre,temp,hum FROM clima WHERE nombre='Zuriel';")
+query = ("SELECT id,fecha,nombre,texto,rfid FROM rfid WHERE id='8';")
 
 
 #Ejecutar cursor
