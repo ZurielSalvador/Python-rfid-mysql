@@ -72,3 +72,63 @@ Terminal con la ejecución de los programas:
 YouTube: https://youtu.be/UrO7WBSpw5U 
 
 
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+# Ejercicio-rfid-args-mysql.py
+
+
+
+## Descripción:
+
+Para este ejercicío se almacenara el rfid y texto que inserte el usuario por medio de un interfaz gráfica utilizando Node-RED, y almacenando en la bas de datos de MySQL.
+
+
+### Intrucciones:
+
+
+1. Se elebora un programa capaz del leer la tarjeta RFID y con ello almacenar en la base de datos lo que el usuario escriba.
+
+
+2. Se elabora un interfaz gráfica utilizando Node-RED desde la Raspberry Pi 4.
+
+
+3. Finalmente se elaboran un ejercicio con un texto aleatoria para dicha comprobación.
+
+
+
+
+*Nota: Es importante conocer la ruta correcta del programa ubicado en la Raspberry Pi4*
+
+
+*Nota2: La actualización de la IP ahora sera llamando a la maquina virtual.*
+
+
+
+## Evidencias
+
+
+Nodos de Node-Red:
+
+
+[![201022-4.png](https://i.postimg.cc/N04GSbpm/201022-4.png)](https://postimg.cc/HJrC70Gk)
+
+
+
+Se escribe un texto alazar para que podamos ver la diferencia con los que ya existen en la base datos:
+
+
+[![201022-5.png](https://i.postimg.cc/Z5J5c1L4/201022-5.png)](https://postimg.cc/KRsbcpVH)
+
+
+
+Por ultimo vamos a a la base de datos y obtenemos lo siguiente:
+
+
+[![201022-2.png](https://i.postimg.cc/tTWK8gXf/201022-2.png)](https://postimg.cc/wyx4mgRc)
+
+
+El texto fue ilustrado correctamente, y podemos ver que el número del RFID es el mismo.
+
